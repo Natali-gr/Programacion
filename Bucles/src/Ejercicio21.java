@@ -4,10 +4,8 @@ public class Ejercicio21 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int n=0;
-        do{
-         n=n%7;
-            System.out.println(n);
-        }while(n<=100);
+        for(int i=1; i*7<100; i++) {
+            System.out.print(i * 7 +" ");
+        }
     }
 }
