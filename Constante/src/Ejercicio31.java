@@ -5,8 +5,8 @@ public class Ejercicio31 {
         Scanner sc = new Scanner(System.in);
 
         // Precios por kilo
-        final double precioManzanas = 2.35;
-        final double precioPeras = 1.95;
+        final double PrecioManzanas = 2.35;
+        final double PrecioPeras = 1.95;
 
         // Solicitamos ventas del primer semestre:
         System.out.println("Ingresa las ventas en kilos para el primer semestre:");
@@ -18,13 +18,13 @@ public class Ejercicio31 {
         // Solicitamos ventas del segundo semestre
         System.out.println("Ingresa las ventas en kilos para el segundo semestre:");
         System.out.print("Ventas de manzanas: ");
-        ventasManzana = sc.nextDouble();
+        double ventasManzana2 = sc.nextDouble();
         System.out.print("Ventas de peras: ");
-        ventasPera = sc.nextDouble();
+        double ventasPera2 = sc.nextDouble();
 
         // Calcular los beneficios
-        double totalManzanas = ventasManzana * precioManzanas;
-        double totalPeras = ventasPera * precioPeras;
+        double totalManzanas = (ventasManzana+ventasManzana2) * PrecioManzanas;
+        double totalPeras = (ventasPera+ventasPera2) * PrecioPeras;
         double totalBeneficios = totalManzanas + totalPeras;
 
         // Mostrar los resultados
