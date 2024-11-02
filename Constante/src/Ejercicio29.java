@@ -7,16 +7,16 @@ public class Ejercicio29 {
         System.out.println("ingresa la hora: ");
         int hora=sc.nextInt();
         System.out.println("ingresa los minutos: ");
-        int minutos=sc.nextInt();
+        int minuto=sc.nextInt();
         System.out.println("ingresa los segundos: ");
         int segundos=sc.nextInt();
 
-        segundos++;
-        minutos=segundos/60;
-        segundos=segundos%60;
-        hora=hora%24;
+        if(hora>0 && hora<=23 && minuto<=59 && segundos<=59) {
+            segundos = (segundos + 1) % 60;
+            minuto = (segundos == 0) ? (minuto + 1) % 60 : minuto;
+            hora = (segundos == 0 && minuto == 0) ? (hora + 1) % 24 : hora;
 
-        System.out.println("la hora después de un segundo será: horas="+hora+"; minutos="+minutos+"; segundos= "+segundos);
-
+            System.out.println("la hora después de un segundo será: horas=" + hora + "; minutos=" + minuto + "; segundos= " + segundos);
+        }
     }
 }
