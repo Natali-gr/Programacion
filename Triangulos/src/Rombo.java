@@ -10,7 +10,11 @@ public class Rombo {
         // Parte superior del rombo
         for (int i = 1; i <= filas; i++) {
             // Imprimir espacios para centrar los asteriscos
+<<<<<<< HEAD
             for (int j =filas; j>i ; j--) {
+=======
+            for (int j = 1; j <= filas - i; j++) {
+>>>>>>> origin/master
                 System.out.print(" ");
             }
             // Imprimir asteriscos
@@ -21,9 +25,15 @@ public class Rombo {
         }
 
         // Parte inferior del rombo
+<<<<<<< HEAD
         for (int i =filas-1; i >= 1; i--) {
             // Imprimir espacios para centrar los asteriscos
             for (int j =filas ; j>i ; j--) {
+=======
+        for (int i = filas - 1; i >= 1; i--) {
+            // Imprimir espacios para centrar los asteriscos
+            for (int j = 1; j <= filas - i; j++) {
+>>>>>>> origin/master
                 System.out.print(" ");
             }
             // Imprimir asteriscos
