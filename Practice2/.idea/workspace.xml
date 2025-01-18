@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba579a73-6acd-4462-89ef-871986ee9ef9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio11_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio11_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio1_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2rABitHi6LZAfdo2tMaDIoMJ4z5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Ejercicio1.executor": "Run",
+    "Application.Ejercicio10.executor": "Run",
+    "Application.Ejercicio11.executor": "Run",
+    "Application.Ejercicio11_1.executor": "Run",
+    "Application.Ejercicio11_2.executor": "Run",
+    "Application.Ejercicio12.executor": "Run",
+    "Application.Ejercicio13.executor": "Run",
+    "Application.Ejercicio14.executor": "Run",
+    "Application.Ejercicio15.executor": "Run",
+    "Application.Ejercicio1_1.executor": "Run",
+    "Application.Ejercicio2.executor": "Run",
+    "Application.Ejercicio3.executor": "Run",
+    "Application.Ejercicio3_1.executor": "Run",
+    "Application.Ejercicio4.executor": "Run",
+    "Application.Ejercicio5.executor": "Run",
+    "Application.Ejercicio6.executor": "Run",
+    "Application.Ejercicio7.executor": "Run",
+    "Application.Ejercicio8.executor": "Run",
+    "Application.Ejercicio9.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Natty/IdeaProjects/Practice2/src/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba579a73-6acd-4462-89ef-871986ee9ef9" name="Changes" comment="" />
+      <created>1735992132359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735992132359</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Ejercicio1.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

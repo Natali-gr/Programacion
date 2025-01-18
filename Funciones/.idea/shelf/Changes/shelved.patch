@@ -1,0 +1,149 @@
+Index: src/Ejercicio33.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Ejercicio33 {\r\n    /*Escribe una función que muestre por pantalla un triángulo como el del ejemplo.\r\n    Deberá recibir dos parámetros: el carácter que se desea imprimir y el número de líneas\r\n    del triángulo.*/\r\n    public static void imprimirTriangulo(char c, int numLineas) {\r\n        // Recorrer cada línea del triángulo\r\n        for (int i = 0; i < numLineas; i++) {\r\n            // Imprimir espacios antes del carácter\r\n            for (int j = 0; j < numLineas - i - 1; j++) {\r\n                System.out.print(\" \");\r\n            }\r\n            // Imprimir el carácter en cantidad 2*i + 1\r\n            for (int j = 0; j < 2 * i + 1; j++) {\r\n                System.out.print(c);\r\n            }\r\n            // Salto de línea al final de cada fila\r\n            System.out.println();\r\n        }\r\n    }\r\n    public static void main(String[] args) {\r\n        // Ejemplo de uso\r\n        char caracter = 'a';\r\n        int lineas = 4;\r\n\r\n        imprimirTriangulo(caracter, lineas);\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ejercicio33.java b/src/Ejercicio33.java
+--- a/src/Ejercicio33.java	(revision 42bc6a90993cea897913b696f86c007115bd785f)
++++ b/src/Ejercicio33.java	(date 1737069920451)
+@@ -21,7 +21,6 @@
+         // Ejemplo de uso
+         char caracter = 'a';
+         int lineas = 4;
+-
+         imprimirTriangulo(caracter, lineas);
+     }
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e09895a8-bd0b-429a-8e2f-eac768b05e49\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Funciones.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio1.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio10.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio19.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio2.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio20.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio21.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio22.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio23.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio24.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio25.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio26.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio27.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio28.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio29.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio3.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio30.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio31.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio32.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio33.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio34.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio35.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio36.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio37.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio38.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio39.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio4.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio5.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio6.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio7.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio8.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Ejercicio9.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 7\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2rWePuUeg1NQUoR6mqAPCHaj5nr\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Ejercicio1.executor\": \"Run\",\r\n    \"Application.Ejercicio19.executor\": \"Run\",\r\n    \"Application.Ejercicio21.executor\": \"Run\",\r\n    \"Application.Ejercicio22.executor\": \"Run\",\r\n    \"Application.Ejercicio23.executor\": \"Run\",\r\n    \"Application.Ejercicio25.executor\": \"Run\",\r\n    \"Application.Ejercicio26.executor\": \"Run\",\r\n    \"Application.Ejercicio35.executor\": \"Run\",\r\n    \"Application.Ejercicio38.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/Natty/IdeaProjects/Funciones/src/Main.java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e09895a8-bd0b-429a-8e2f-eac768b05e49\" name=\"Changes\" comment=\"\" />\r\n      <created>1736679240489</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1736679240489</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/Main.java</url>\r\n          <line>12</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 42bc6a90993cea897913b696f86c007115bd785f)
++++ b/.idea/workspace.xml	(date 1737069931273)
+@@ -4,45 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e09895a8-bd0b-429a-8e2f-eac768b05e49" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Funciones.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio1.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio10.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio19.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio2.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio20.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio21.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio22.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio23.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio24.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio25.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio26.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio27.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio28.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio29.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio3.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio30.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio31.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio32.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio33.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio34.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio35.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio36.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio37.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio38.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio39.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio4.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio5.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio6.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio7.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio8.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Ejercicio9.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
++    <list default="true" id="e09895a8-bd0b-429a-8e2f-eac768b05e49" name="Changes" comment="Funciones">
++      <change beforePath="$PROJECT_DIR$/src/Ejercicio33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio33.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Ejercicio34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio34.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -97,7 +61,47 @@
+       <option name="presentableId" value="Default" />
+       <updated>1736679240489</updated>
+     </task>
++    <task id="LOCAL-00001" summary="Funciones">
++      <option name="closed" value="true" />
++      <created>1737069656125</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1737069656125</updated>
++    </task>
++    <task id="LOCAL-00002" summary="Funciones">
++      <option name="closed" value="true" />
++      <created>1737069710582</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1737069710582</updated>
++    </task>
++    <task id="LOCAL-00003" summary="Funciones">
++      <option name="closed" value="true" />
++      <created>1737069721746</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1737069721746</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Funciones" />
++    <option name="LAST_COMMIT_MESSAGE" value="Funciones" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: src/Ejercicio34.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Scanner;\r\npublic class Ejercicio34 {\r\n    /*Escribe un programa que pida cinco precios y muestre por pantalla el precio de venta\r\n    de cada uno tras aplicarle un 21% de IVA. Implementa y utiliza la función:\r\n    double precioConIVA(double precio)*/\r\n    public class PrecioConIVA {\r\n\r\n        // Función para calcular el precio con IVA\r\n        public static double precioConIVA(double precio) {\r\n            // Se aplica un 21% de IVA\r\n            return precio * 1.21;\r\n        }\r\n\r\n        public static void main(String[] args) {\r\n            Scanner scanner = new Scanner(System.in);\r\n\r\n            // Pedir y mostrar los precios con IVA para 5 productos\r\n            for (int i = 1; i <= 5; i++) {\r\n                System.out.print(\"Introduce el precio del producto \" + i + \": \");\r\n                double precio = scanner.nextDouble();\r\n                double precioConIva = precioConIVA(precio);\r\n                System.out.println(\"El precio de venta del producto \" + i + \" con IVA es: \" + precioConIva);\r\n            }\r\n\r\n            scanner.close();\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ejercicio34.java b/src/Ejercicio34.java
+--- a/src/Ejercicio34.java	(revision 42bc6a90993cea897913b696f86c007115bd785f)
++++ b/src/Ejercicio34.java	(date 1737069920457)
+@@ -10,12 +10,11 @@
+             // Se aplica un 21% de IVA
+             return precio * 1.21;
+         }
+-
+         public static void main(String[] args) {
+             Scanner scanner = new Scanner(System.in);
+ 
+             // Pedir y mostrar los precios con IVA para 5 productos
+-            for (int i = 1; i <= 5; i++) {
++            for(int i = 1; i <= 5; i++) {
+                 System.out.print("Introduce el precio del producto " + i + ": ");
+                 double precio = scanner.nextDouble();
+                 double precioConIva = precioConIVA(precio);
