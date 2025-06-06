@@ -10,21 +10,25 @@ public class Ejercicio5 {
        /* int i=0;
         while (i<50){
             i=i+2;
-            System.out.print(i+" ,");
+            System.out.print(i+" ,");+
         }*/
         System.out.println("ingresa un numero:");
         int num = sc.nextInt();
 
-        int i = 0;
+        int i = 1;
+        String par= " ";
+        String impar=" ";
+        while (i <= num) {
 
-        while (i < num) {
-            i = i + 2;
-            if (i < num) {
-                System.out.print(i + " ,");
+            if (i %2==0) {
+                par=par +i+" ";
             } else {
-                System.out.print(i);
-            }
+                impar= impar+i+ " ";
+                     }
+            i++;
         }
+        System.out.println("Pares: "+par);
+        System.out.print("Impar: "+impar);
     }
 }
 

@@ -1,3 +1,5 @@
+import java.util.IllegalFormatCodePointException;
+
 public class Ejercicio31 {
     /*Escribir una función que reciba como parámetro un número entero y devuelva un
     valor booleano. True si el entero pasado como parámetro es un número perfecto y false
@@ -17,12 +19,19 @@ public class Ejercicio31 {
         }
 
         // Un número es perfecto si la suma de sus divisores propios es igual al número
+     /*
+        if (sumaDivisores == numero) {
+            return true;
+        }else {
+            return false;
+        }
+    */
         return sumaDivisores == numero;
     }
 
     public static void main(String[] args) {
         // Ejemplo de uso
-        int numero = 28; // Cambia este valor para probar otros números
+        int numero = 6; // Cambia este valor para probar otros números
 
         boolean resultado = esNumeroPerfecto(numero);
 

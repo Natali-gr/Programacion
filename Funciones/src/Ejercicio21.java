@@ -16,6 +16,9 @@ public class Ejercicio21 {
     public static int busca(int[] t, int clave) {
         // Recorremos el array para buscar la clave
         for (int i = 0; i < t.length; i++) {
+
+            //           0  1  2  3   4  5
+            //int[] t = {5, 8, 12, 3, 7, 1};
             if (t[i] == clave) {
                 return i;
             }
